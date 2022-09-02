@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply
+    h-screen
+    bg-gradient-to-b from-color2 via-background to-yellow-100
+    overflow-x-hidden
+}
