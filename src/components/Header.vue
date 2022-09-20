@@ -1,4 +1,5 @@
 <script lang="ts">
+    let height = 10
     export default {
         methods: {
             visMobilMeny() {
@@ -11,7 +12,7 @@
                     dropD.setAttribute("style", "visibility: visible");
                     dropD.setAttribute("style", "display: inline");
                     hoved.setAttribute("style", "border-bottom-width: 1px");
-                    hoved.setAttribute("style", "height: 35rem");
+                    hoved.setAttribute("style", "height: 30rem");
                     meny.setAttribute("style", "grid-row-start: 2");
                     
                     
@@ -19,7 +20,6 @@
                     dropD.setAttribute("style", "visibility: invisible");
                     dropD.setAttribute("style", "display: none");
                     hoved.setAttribute("style", "border-bottom-width: 0px");
-                    hoved.setAttribute("style", "height: 8rem");
                     meny.setAttribute("style", "grid-row-start: 3");
                    
                 }
@@ -41,10 +41,9 @@
                 </div>
                 <div class="MobilValg">
                     <ul class="text-white text-bold font-mono text-lg py-12">
-                      <div class="border-b-2 w-4/5 mx-auto py-2 pt-8"><li><button @click="$router.push({ name: 'competition 1' })" class="hover:underline hover:scale-105 transition ease-in-out text-2xl">Konkurranse 1</button></li></div>
-                      <div class="border-b-2 w-4/5 mx-auto py-2"><li><button @click="$router.push({ name: 'competition 2' })" class="hover:underline hover:scale-105 transition ease-in-out text-2xl">Konkurranse 2</button></li></div>
-                      <div class="border-b-2 w-4/5 mx-auto py-2"><li><button @click="$router.push({ name: 'competition 3' })" class="hover:underline hover:scale-110 transition ease-in-out text-2xl">Konkurranse 3</button></li></div>
-                      <div class="border-b-2 w-4/5 mx-auto py-2"><li><button @click="$router.push({ name: 'CvSkjerm' })" class="hover:underline hover:scale-110 transition ease-in-out text-2xl">Konkurranse 4</button></li></div>
+                      <div class="border-b-2 w-4/5 mx-auto py-2 pt-8"><li><button @click="$router.push({ name: 'competition 1' })" class="hover:underline hover:scale-105 transition ease-in-out text-2xl">Dagens farger</button></li></div>
+                      <div class="border-b-2 w-4/5 mx-auto py-2"><li><button @click="$router.push({ name: 'competition 2' })" class="hover:underline hover:scale-105 transition ease-in-out text-2xl">Sondre eller Sander?</button></li></div>
+                      <div class="border-b-2 w-4/5 mx-auto py-2"><li><button @click="$router.push({ name: 'competition 3' })" class="hover:underline hover:scale-110 transition ease-in-out text-2xl">Insta-konkurransen</button></li></div>
                       <div class="pb-4"></div>
                     </ul>
                 </div>
@@ -58,7 +57,6 @@
 .outerH{
     @apply
     sticky top-0
-    h-[8rem]
     w-screen
     bg-color2
     rounded-b-2xl
@@ -113,6 +111,7 @@
     row-span-1
 }
 
+
 @media only screen and (min-width: 600px) {
 
     .MobilMeny{
@@ -151,6 +150,13 @@
     .DagenL{
         @apply
         scale-[60%]
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .outerH{
+        @apply
+        h-[8rem]
     }
 }
 </style>
