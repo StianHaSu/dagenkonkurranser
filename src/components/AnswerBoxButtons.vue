@@ -39,7 +39,7 @@ export default{
                         <input v-model="form.email" class="shadow-inner text-center shadow-black form-control rounded-md placeholder:font-bold placeholder:text-center" placeholder="E-post" required/>
                     </div>
                     <div class="grid row-start-3">
-                        <select v-model="form.answer" class="text-center">
+                        <select v-model="form.answer" class="text-center" required>
                             <option disabled value="">Trykk her for å velge farge</option>
                             <option>Blå</option>
                             <option>Rosa</option>
