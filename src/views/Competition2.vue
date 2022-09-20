@@ -1,13 +1,11 @@
 <script setup lang ="ts">
-import AnswerBox from "../components/AnswerBoxButtons.vue"
+import AnswerBox from "../components/AnswerBox.vue"
 import Header from "../components/Header.vue"
 </script>
 
 <template>
-    <div>
-        <Header></Header>
-    </div>
-    <div class="konkTekst"><h1>Hvilken farge har dagen@ifi ikke hatt?</h1></div>
+    <div><Header></Header></div>
+    <div class="konkTekst"><h1>Sander eller Sondre?</h1></div>
     <div class="flex justify-center">
         <AnswerBox/>
     </div>

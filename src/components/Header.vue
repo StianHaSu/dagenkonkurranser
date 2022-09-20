@@ -42,8 +42,8 @@
                 <div class="MobilValg">
                     <ul class="text-white text-bold font-mono text-lg py-12">
                       <div class="border-b-2 w-4/5 mx-auto py-2 pt-8"><li><button @click="$router.push({ name: 'competition 1' })" class="hover:underline hover:scale-105 transition ease-in-out text-2xl">Konkurranse 1</button></li></div>
-                      <div class="border-b-2 w-4/5 mx-auto py-2"><li><button @click="$router.push({ name: 'Kontaktskjerm' })" class="hover:underline hover:scale-105 transition ease-in-out text-2xl">Konkurranse 2</button></li></div>
-                      <div class="border-b-2 w-4/5 mx-auto py-2"><li><button @click="$router.push({ name: 'Omskjerm' })" class="hover:underline hover:scale-110 transition ease-in-out text-2xl">Konkurranse 3</button></li></div>
+                      <div class="border-b-2 w-4/5 mx-auto py-2"><li><button @click="$router.push({ name: 'competition 2' })" class="hover:underline hover:scale-105 transition ease-in-out text-2xl">Konkurranse 2</button></li></div>
+                      <div class="border-b-2 w-4/5 mx-auto py-2"><li><button @click="$router.push({ name: 'competition 3' })" class="hover:underline hover:scale-110 transition ease-in-out text-2xl">Konkurranse 3</button></li></div>
                       <div class="border-b-2 w-4/5 mx-auto py-2"><li><button @click="$router.push({ name: 'CvSkjerm' })" class="hover:underline hover:scale-110 transition ease-in-out text-2xl">Konkurranse 4</button></li></div>
                       <div class="pb-4"></div>
                     </ul>
