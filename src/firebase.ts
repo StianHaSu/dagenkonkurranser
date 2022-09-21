@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, addDoc } from 'firebase/firestore/lite';
+import { getFirestore, collection, addDoc, updateDoc } from 'firebase/firestore/lite';
 
 
 const firebaseConfig = {
@@ -14,17 +14,18 @@ const firebaseConfig = {
 const firebase = initializeApp(firebaseConfig);
 const db = getFirestore(firebase);
 
-const comp1 = collection(db, "konkurranse1")
-const comp2 = collection(db, "konkurranse2")
+const farger = collection(db, "dagensfarger")
+const sondre = collection(db, "sondresander")
 
 export const submitAnswer = (comp: any, answer: any) => {
   if (comp == 1){
-    return addDoc(comp1, answer);
+    return addDoc(farger, answer);
   }
 
   else if (comp == 2){
-    return addDoc(comp2, answer);
+    return addDoc(sondre, answer);
   }
+
 }
 
 

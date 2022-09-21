@@ -12,7 +12,7 @@ function goToInsta(){
 
 <template>
     <div><Header></Header></div>
-    <div class="bg-gray-400 bg-opacity-30 mt-2 pb-12 rounded-md">
+    <div class="bg-gray-400 bg-opacity-30 mx-4 mt-4 pb-12 rounded-lg">
         <div class="konkTekst"><h1>Instagram konkurransen</h1></div>
         <div>
             <div class="forklaring">
