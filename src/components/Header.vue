@@ -109,6 +109,8 @@
     row-start-2
     col-span-3
     row-span-1
+    w-[200px]
+    h-[80px]
 }
 
 
@@ -123,7 +125,8 @@
 @media only screen and (min-width: 800px){
     .DagenL{
         @apply
-        scale-[80%]
+        w-[240px]
+        h-[100px]
     }
 
     .outerH{
@@ -133,12 +136,11 @@
 }
 
 @media only screen and (min-width: 1000px){
-    .DagenL{
-        @apply
-        scale-[70%]
+    
+    
         
      
-    }
+    
 
     .Hamburger{
         @apply
@@ -146,12 +148,6 @@
     }
 }
 
-@media only screen and (min-width: 1300px){
-    .DagenL{
-        @apply
-        scale-[60%]
-    }
-}
 
 @media only screen and (max-width: 800px) {
     .outerH{
