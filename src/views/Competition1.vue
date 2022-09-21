@@ -11,7 +11,7 @@ import Header from "../components/Header.vue"
     <div class="flex justify-center">
         <AnswerBox/>
     </div>
-    <div class="mx-4 mt-3 text-center text-xl rounded-md">
+    <div class="mx-2 mt-3 text-center text-xl rounded-md">
         <p class="tekstBoks">Vinneren av denne konkurransen vil få en splitter ny Moccamaster!</p>
     </div>
 </template>
@@ -27,9 +27,10 @@ import Header from "../components/Header.vue"
     }
 
     .tekstBoks{
-        text-shadow: 0 0 0px #ffffff, 0 3px 1px #000;
+        text-shadow: 0 0 0px #ffffff, 0 2px 2px #000;
         @apply
         mt-4
+        mx-2
         text-center
       text-white
       bg-gray-400 bg-opacity-30 py-4
