@@ -42,7 +42,7 @@ export default{
                         <input v-model="form.answer" class="shadow-inner text-center shadow-black form-control rounded-md placeholder:font-bold placeholder:text-center" placeholder="Svar" required/>
                     </div>
                     <div class="grid row-start-4 my-4 py-2 rounded-xl text-2xl font-semibold bg-color3 border border-black border-opacity-60 border-x-2 border-y-2">
-                        <button  type="submit" >Avgi svar</button>
+                        <h1>KONKURRANSE STENGT</h1>
                     </div>
                 </div>
             </form>

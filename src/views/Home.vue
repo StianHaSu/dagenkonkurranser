@@ -12,12 +12,11 @@ import AnswerBox from '../components/AnswerBox.vue';
         <div class="tekstBoks">
             <h1 class="font-bold text-3xl">Nå er dagen her!</h1>
             <div class="mx-4 mt-3 text-center text-xl">
-                <p1>
+                <p class="text">
                     Dette er konkurransesiden for alle konkurransene på dagen@ifi
                     2022! Oppe i høyre hjørne kan du trykke på hamburgermenyen og 
                     gå gjennom årets konkurranser!
-                    
-                </p1>
+                </p>
             </div>
         </div>
     </div>
